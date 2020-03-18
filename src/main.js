@@ -1,12 +1,9 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './App'
 import router from './router'
 import store from './store'
+import AmazoniaFramework from 'amazonia-framework-frontend'
 
-Vue.config.productionTip = false
+import './quasar'
 
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+Vue.use(AmazoniaFramework, { router, store, App })

@@ -1,0 +1,13 @@
+image: docker-registry.default.svc:5000/gitlab/maven3
+
+stages:
+  - deploy
+
+oc:deploy:
+  stage: deploy
+  script: 
+    - webhook-pipeline $PIPELINE_WEBHOOK_URL $CI_COMMIT_REF_NAME
+  only:
+    - /^release-*/
+    - /^feature-*/
+    - master

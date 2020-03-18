@@ -1,0 +1,13 @@
+{
+	"enable": false,
+	"keycloak": {
+	    "realm": "basa-realm",
+	    "url": "https://sso-basa.hml.bancoamazonia.sa/auth/",
+	    "clientId": "sgf"
+	},
+	"seguClient": {
+		"name": "AMZCAD",
+		"url": "https://api-seguranca.hml.bancoamazonia.sa/pdsegu2/usuarios/",
+		"clients": "BDAGRO,SISLAUDO"
+	}
+}

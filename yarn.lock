@@ -770,6 +770,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@dsb-norge/vue-keycloak-js@^1.1.2":
+  version "1.1.2"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/@dsb-norge/vue-keycloak-js/-/vue-keycloak-js-1.1.2.tgz#cbda4e890a9ecc0d12f913a33f5a0cbcb170768f"
+  integrity sha512-1psG/3U6HszG+/bJNQTivJVWir846AOhS0cx88WVhf8ywOAx9L2mzHqiV8PxjW5v3KAhfixNhrMCAtU3/Y7vGQ==
+  dependencies:
+    keycloak-js "4.8.3"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -844,6 +851,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
+
+"@quasar/extras@^1.6.0":
+  version "1.6.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/@quasar/extras/-/extras-1.6.0.tgz#d0607e3cf175e652ae9510b17b302e91b918e6c6"
+  integrity sha512-D7hCu6BgoYRuczKQzLeS3i8AHXYNN1A+ZDrrP1HiWtgcX6BSKNRtZLthr779RT5UeBIh9VrBr98Eeuufx+NDlA==
 
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.7.1"
@@ -1395,6 +1407,21 @@ alphanum-sort@^1.0.0:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+amazonia-framework-frontend@^1.0.1-beta.1:
+  version "1.0.1-beta.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/amazonia-framework-frontend/-/amazonia-framework-frontend-1.0.1-beta.1.tgz#974b604084dcf3832a1e9781203b20b0d14be655"
+  integrity sha512-lJ5Mygip7/ufpRLxEgRQS/MoMxk+kUtmplhXczsdfcVZqKc1pBWX+L/ulZvOdxEC0UzyrtX94OAyV+QDj1Ha5w==
+  dependencies:
+    "@dsb-norge/vue-keycloak-js" "^1.1.2"
+    "@vue/eslint-config-standard" "^5.1.0"
+    date-fns "^2.10.0"
+    dompurify "^2.0.7"
+    extenso "^2.0.1"
+    fast-deep-equal "^3.1.1"
+    global "^4.4.0"
+    keycloak-js "^8.0.1"
+    v-money "^0.8.1"
+
 ansi-colors@3.2.3:
   version "3.2.3"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/ansi-colors/-/ansi-colors-3.2.3.tgz#57d35b8686e851e2cc04c403f1c00203976a1813"
@@ -1660,6 +1687,13 @@ aws4@^1.8.0:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/aws4/-/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
   integrity sha512-wMHVg2EOHaMRxbzgFJ9gtjOOCrI80OHLG14rxi28XwOW8ux6IiEbRCGGGqCtdAIg4FQCbW20k9RsT4y3gJlFug==
 
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
+
 babel-eslint@^10.0.3:
   version "10.1.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/babel-eslint/-/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
@@ -1689,6 +1723,18 @@ babel-plugin-dynamic-import-node@^2.3.0:
   dependencies:
     object.assign "^4.1.0"
 
+babel-plugin-transform-imports@1.5.0:
+  version "1.5.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/babel-plugin-transform-imports/-/babel-plugin-transform-imports-1.5.0.tgz#3105082ab489b1cee162e42d2ffe7b8f7c685f2e"
+  integrity sha1-MQUIKrSJsc7hYuQtL/57j3xoXy4=
+  dependencies:
+    babel-types "^6.6.0"
+    is-valid-path "^0.1.1"
+    lodash.camelcase "^4.3.0"
+    lodash.findkey "^4.6.0"
+    lodash.kebabcase "^4.1.1"
+    lodash.snakecase "^4.1.1"
+
 babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
@@ -1697,12 +1743,22 @@ babel-runtime@^6.26.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
+babel-types@^6.6.0:
+  version "6.26.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/babel-types/-/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
+  integrity sha1-o7Bz+Uq0nrb6Vc1lInozQ4BjJJc=
+  dependencies:
+    babel-runtime "^6.26.0"
+    esutils "^2.0.2"
+    lodash "^4.17.4"
+    to-fast-properties "^1.0.3"
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
-base64-js@^1.0.2:
+base64-js@1.3.1, base64-js@^1.0.2:
   version "1.3.1"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
   integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
@@ -2863,6 +2919,11 @@ data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
+date-fns@^2.10.0:
+  version "2.11.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/date-fns/-/date-fns-2.11.0.tgz#ec2b44977465b9dcb370021d5e6c019b19f36d06"
+  integrity sha512-8P1cDi8ebZyDxUyUprBXwidoEtiQAawYPGvpfb+Dg0G6JrQ+VozwOmm91xYC0vAv1+0VmLehEPb+isg4BGUFfA==
+
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
@@ -2882,19 +2943,19 @@ debug@3.2.6, debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
   dependencies:
     ms "^2.1.1"
 
+debug@=3.1.0, debug@~3.1.0:
+  version "3.1.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
+
 debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
-
-debug@~3.1.0:
-  version "3.1.0"
-  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
 
 decamelize@^1.2.0:
   version "1.2.0"
@@ -3110,6 +3171,11 @@ dom-serializer@0:
     domelementtype "^2.0.1"
     entities "^2.0.0"
 
+dom-walk@^0.1.0:
+  version "0.1.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
+  integrity sha1-ZyIm3HTI95mtNTB9+TaroRrNYBg=
+
 domain-browser@^1.1.1:
   version "1.2.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
@@ -3138,6 +3204,11 @@ domhandler@^2.3.0:
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
+
+dompurify@^2.0.7:
+  version "2.0.8"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/dompurify/-/dompurify-2.0.8.tgz#6ef89d2d227d041af139c7b01d9f67ed59c2eb3c"
+  integrity sha512-vIOSyOXkMx81ghEalh4MLBtDHMx1bhKlaqHDMqM2yeitJ996SLOk5mGdDpI9ifJAgokred8Rmu219fX4OltqXw==
 
 domutils@1.5.1:
   version "1.5.1"
@@ -3734,6 +3805,11 @@ extend@~3.0.2:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
+extenso@^2.0.1:
+  version "2.0.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/extenso/-/extenso-2.0.1.tgz#85411f40d7b8758279a18f84fadf5b0e4042717c"
+  integrity sha512-EXaNgWmE9UHqXCa65Fgj4bNArSxBsJh80QWJPscViClk3ch/WlNfB3otKwIid2gfXdEqJ1Hfyl5/+aKSH/Y1Pw==
+
 external-editor@^3.0.3:
   version "3.1.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/external-editor/-/external-editor-3.1.0.tgz#cb03f740befae03ea4d283caed2741a83f335495"
@@ -3992,6 +4068,13 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+  dependencies:
+    debug "=3.1.0"
+
 follow-redirects@^1.0.0:
   version "1.10.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/follow-redirects/-/follow-redirects-1.10.0.tgz#01f5263aee921c6a54fb91667f08f4155ce169eb"
@@ -4186,6 +4269,14 @@ glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
     minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+global@^4.4.0:
+  version "4.4.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/global/-/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
+  integrity sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==
+  dependencies:
+    min-document "^2.19.0"
+    process "^0.11.10"
 
 globals@^11.1.0:
   version "11.12.0"
@@ -4903,6 +4994,11 @@ is-extendable@^1.0.1:
   dependencies:
     is-plain-object "^2.0.4"
 
+is-extglob@^1.0.0:
+  version "1.0.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-extglob/-/is-extglob-1.0.0.tgz#ac468177c4943405a092fc8f29760c6ffc6206c0"
+  integrity sha1-rEaBd8SUNAWgkvyPKXYMb/xiBsA=
+
 is-extglob@^2.1.0, is-extglob@^2.1.1:
   version "2.1.1"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
@@ -4925,6 +5021,13 @@ is-fullwidth-code-point@^3.0.0:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
   integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
 
+is-glob@^2.0.0:
+  version "2.0.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-glob/-/is-glob-2.0.1.tgz#d096f926a3ded5600f3fdfd91198cb0888c2d863"
+  integrity sha1-0Jb5JqPe1WAPP9/ZEZjLCIjC2GM=
+  dependencies:
+    is-extglob "^1.0.0"
+
 is-glob@^3.1.0:
   version "3.1.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-glob/-/is-glob-3.1.0.tgz#7ba5ae24217804ac70707b96922567486cc3e84a"
@@ -4938,6 +5041,13 @@ is-glob@^4.0.0, is-glob@^4.0.1:
   integrity sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==
   dependencies:
     is-extglob "^2.1.1"
+
+is-invalid-path@^0.1.0:
+  version "0.1.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-invalid-path/-/is-invalid-path-0.1.0.tgz#307a855b3cf1a938b44ea70d2c61106053714f34"
+  integrity sha1-MHqFWzzxqTi0TqcNLGEQYFNxTzQ=
+  dependencies:
+    is-glob "^2.0.0"
 
 is-number@^3.0.0:
   version "3.0.0"
@@ -5038,6 +5148,13 @@ is-typedarray@~1.0.0:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
 
+is-valid-path@^0.1.1:
+  version "0.1.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-valid-path/-/is-valid-path-0.1.1.tgz#110f9ff74c37f663e1ec7915eb451f2db93ac9df"
+  integrity sha1-EQ+f90w39mPh7HkV60UfLbk6yd8=
+  dependencies:
+    is-invalid-path "^0.1.0"
+
 is-whitespace@^0.3.0:
   version "0.3.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/is-whitespace/-/is-whitespace-0.3.0.tgz#1639ecb1be036aec69a54cbb401cfbed7114ab7f"
@@ -5120,6 +5237,11 @@ js-queue@2.0.0:
   integrity sha1-NiITz4YPRo8BJfxslqvBdCUx+Ug=
   dependencies:
     easy-stack "^1.0.0"
+
+js-sha256@0.9.0:
+  version "0.9.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/js-sha256/-/js-sha256-0.9.0.tgz#0b89ac166583e91ef9123644bd3c5334ce9d0966"
+  integrity sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -5251,6 +5373,19 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
+
+keycloak-js@4.8.3:
+  version "4.8.3"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/keycloak-js/-/keycloak-js-4.8.3.tgz#e065f41d144d260afa8466b5b587a65d5f308d30"
+  integrity sha512-TXoZdoOYu2ScYs58L95/xSYjsTto9KRvZ+vt6mv4Dyf4pYhYZSgwMPnmi128qj/z8sm4mL1Z8nncR6XdWgNKMQ==
+
+keycloak-js@^8.0.1:
+  version "8.0.2"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/keycloak-js/-/keycloak-js-8.0.2.tgz#2af5868aa4313c111601115e990ba317e5f14489"
+  integrity sha512-5Jy5rHx0oURTtj2T6LSMLiqyHzDzPr6ZnaY1fwCBlMsiMx7RVsIBeysYZ5yy29ojH9IMzNJzlZvuLKbEOCmgDQ==
+  dependencies:
+    base64-js "1.3.1"
+    js-sha256 "0.9.0"
 
 killable@^1.0.1:
   version "1.0.1"
@@ -5393,6 +5528,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash.camelcase@^4.3.0:
+  version "4.3.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
+
 lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
@@ -5402,6 +5542,11 @@ lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
   integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
+
+lodash.findkey@^4.6.0:
+  version "4.6.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.findkey/-/lodash.findkey-4.6.0.tgz#83058e903b51cbb759d09ccf546dea3ea39c4718"
+  integrity sha1-gwWOkDtRy7dZ0JzPVG3qPqOcRxg=
 
 lodash.kebabcase@^4.1.1:
   version "4.1.1"
@@ -5418,6 +5563,11 @@ lodash.memoize@^4.1.2:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.snakecase@^4.1.1:
+  version "4.1.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
+  integrity sha1-OdcUo1NXFHg3rv1ktdy7Fr7Nj40=
+
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -5433,7 +5583,7 @@ lodash.uniq@^4.5.0:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3:
+lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4:
   version "4.17.15"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -5658,6 +5808,13 @@ mimic-fn@^2.0.0, mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
+
+min-document@^2.19.0:
+  version "2.19.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/min-document/-/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
+  integrity sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
+  dependencies:
+    dom-walk "^0.1.0"
 
 mini-css-extract-plugin@^0.9.0:
   version "0.9.0"
@@ -6264,7 +6421,7 @@ os-locale@^3.0.0:
     lcid "^2.0.0"
     mem "^4.0.0"
 
-os-tmpdir@^1.0.0, os-tmpdir@~1.0.2:
+os-tmpdir@^1.0.0, os-tmpdir@~1.0.1, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
@@ -6976,6 +7133,13 @@ prelude-ls@~1.1.2:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
+prepend-file@^1.3.1:
+  version "1.3.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/prepend-file/-/prepend-file-1.3.1.tgz#83b16e0b4ac1901fce88dbd945a22f4cc81df579"
+  integrity sha1-g7FuC0rBkB/OiNvZRaIvTMgd9Xk=
+  dependencies:
+    tmp "0.0.31"
+
 prepend-http@^1.0.0:
   version "1.0.4"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
@@ -7122,6 +7286,11 @@ qs@~6.5.2:
   version "6.5.2"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+quasar@^1.9.10:
+  version "1.9.10"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/quasar/-/quasar-1.9.10.tgz#076ac1790b0dd681802a2be2b7bb4edd040c2e33"
+  integrity sha512-CN6kc99gwGaFyac/Xt9ZiUxSw6h5+qF3GGcX8tltAEBZXWdR3jO72UIWDRSCd2Gza8J59A/DL5umfSfGpO5NxA==
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -8349,6 +8518,13 @@ timsort@^0.3.0:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tmp@0.0.31:
+  version "0.0.31"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/tmp/-/tmp-0.0.31.tgz#8f38ab9438e17315e5dbd8b3657e8bfb277ae4a7"
+  integrity sha1-jzirlDjhcxXl29izZX6L+yd65Kc=
+  dependencies:
+    os-tmpdir "~1.0.1"
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -8360,6 +8536,11 @@ to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
   integrity sha1-fSKbH8xjfkZsoIEYCDanqr/4P0M=
+
+to-fast-properties@^1.0.3:
+  version "1.0.3"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
+  integrity sha1-uDVx+k2MJbguIxsG46MFXeTKGkc=
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
@@ -8701,6 +8882,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
+v-money@^0.8.1:
+  version "0.8.1"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/v-money/-/v-money-0.8.1.tgz#dc28cf3be915c5a6c52bfe1085075e1fe7ae9db5"
+  integrity sha512-raz87AP5F2YEpv1GAocI3SC/y9af1+TQeZQIhAK5UNovho6dnh6RQBa5UG8ZNC+BPLpUh5VECi7EWTjr4+4s1g==
+
 v8-compile-cache@^2.0.3:
   version "2.1.0"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/v8-compile-cache/-/v8-compile-cache-2.1.0.tgz#e14de37b31a6d194f5690d67efc4e7f6fc6ab30e"
@@ -8737,6 +8923,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-cli-plugin-quasar@~2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.prd.bancoamazonia.sa/repository/npm-group/vue-cli-plugin-quasar/-/vue-cli-plugin-quasar-2.0.0.tgz#9b15460346750f5687c22150573dbb590fc980ff"
+  integrity sha512-Wo6qUaZaxCvCzHkL0OBFPOFPq464qI0cKQcMIJI3zLkCFlC+tvGhn2s+cRYk4rrJQNvdqjCqN9qKFqM2uK8x5g==
 
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
