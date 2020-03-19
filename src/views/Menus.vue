@@ -5,22 +5,22 @@
             Administração
             </div>
         </q-item-label>
-        <q-item clickable tag="a" to="/proposta">
+        <q-item clickable tag="a" to="/consultar-embargo">
             <q-item-section avatar>
             <q-icon name="far fa-file" />
             </q-item-section>
             <q-item-section>
-            <q-item-label>Proposta</q-item-label>
-            <q-item-label caption>Gerência de Propostas</q-item-label>
+            <q-item-label>Consultar</q-item-label>
+            <q-item-label caption>Consultar Embargos</q-item-label>
             </q-item-section>
         </q-item>
-        <q-item clickable tag="a" to="/contrato">
+        <q-item clickable tag="a" to="/incluir-embargo">
             <q-item-section avatar>
             <q-icon name="far fa-handshake" />
             </q-item-section>
             <q-item-section>
-            <q-item-label>Contrato</q-item-label>
-            <q-item-label caption>Gerência de Contratos</q-item-label>
+            <q-item-label>Incluir</q-item-label>
+            <q-item-label caption>Incluir Embargos</q-item-label>
             </q-item-section>
         </q-item>
     </q-list>
